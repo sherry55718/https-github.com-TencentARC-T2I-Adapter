@@ -11,3 +11,8 @@ output_inference_images_DCN_mine/
 output_inference_images_mine/
 output_inference_images_mine_2/
 wandb/
+Adapter/extra_condition/__pycache__/
+Adapter/models/__pycache__/
+dataset/__pycache__/
+configs/__pycache__/
+medels/__pycache__/
