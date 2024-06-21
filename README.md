@@ -124,7 +124,7 @@ import torch
 
 # load adapter
 adapter = T2IAdapter.from_pretrained(
-  "TencentARC/t2i-adapter-lineart-sdxl-1.0", torch_dtype=torch.float16, varient="fp16"
+  "TencentARC/t2i-adapter-lineart-sdxl-1.0", torch_dtype=torch.float16, variant="fp16"
 ).to("cuda")
 
 # load euler_a scheduler
